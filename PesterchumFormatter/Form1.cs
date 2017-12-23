@@ -61,7 +61,7 @@ namespace PesterchumFormatter
                 if (chum2 == null) { appendOutput("CHUM NOT FOUND ERROR:" + args[2] + "\n", Color.Red); return; }
                 appendOutput("-- " + chum1.longName + " [");
                 appendOutput(chum1.shortName, chum1.color);
-                appendOutput("] ceased " + args[0].ToLower() + "ing " + chum2.longName + " [");
+                appendOutput("] ceased " + args[0].Substring(3).ToLower() + "ing " + chum2.longName + " [");
                 appendOutput(chum2.shortName, chum2.color);
                 appendOutput("] --\n");
                 return;
