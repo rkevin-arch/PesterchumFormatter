@@ -118,8 +118,42 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="input.Text" xml:space="preserve">
-    <value>PesterchumFormatter v0.1 by rkevin
+    <value>PesterchumFormatter v0.4 by rkevin
 No warranty whatsoever, blah blah blah
+
+--------
+MEMO CRF RIGHT NOW;Changelog
+CRF: Refactored some code! Now also supporting memos and time-travel pesterlogs.
+RESPOND FRF 5 MINS FROM NOW
+FRF: Add F/C/P/? before the short chumhandle and it will be recognized!
+CRF: Hey! I was gonna say that!
+BAN CRF FRF
+RESPOND FRF2 15 MINS FROM NOW
+FRF2: Numbering after a chumhandle is also supported.
+FRF2: Ignore past me, he's a dumbass.
+CRF: Hey!
+CRF: Anyways, the MEMO command is weird so you have to use a semicolon to seperate the time and name.
+CRF: Other examples can be seen from this demonstration.
+CRF: Oh well see you later, I need to start working on 0.5 which allows you to import chums from a file!
+ENDMEMO CRF
+
+--------
+
+RF: You can now drag the middle to change the size of the textboxes!
+RF: BTW, you can resize the window.
+RF: Additional options added at the bottom.
+RF: Allow Chum Font currently does nothing though, that's preparing for later.
+
+--------
+
+====&gt;Proceed to v0.2 changelog
+RF: Arrow underlining, color fixes and some quirks added!
+MO: INVERSION POWER!
+RE: what did you say?
+MB: im bloody serious [顺手附赠拼音支持
+DD: 幸运数字5![显示可能有问题，复制到word里应该就行
+
+--------
 
 Normal lines are normal.
 The ones that start with a short chumhandle and : becomes color coded
@@ -142,6 +176,10 @@ Adding arbitrary chumhandles is on the way, I'll make it better later.
 PESTER newChumhandle AB 10:25
 
 The right textbox can be pasted into a word document and preserve the color coding.
-Have fun!</value>
+Have fun!
+</value>
   </data>
+  <metadata name="fontPicker.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>
