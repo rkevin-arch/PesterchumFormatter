@@ -164,6 +164,7 @@ namespace PesterchumFormatter
                 {
                     if(!(from c in line.Substring(0, arrowLoc) where c != '=' select c).Any())
                         appendOutput(line + "\n", Color.Blue, commandFont);
+                    return;
                 } 
             }
             //left in as a joke.
